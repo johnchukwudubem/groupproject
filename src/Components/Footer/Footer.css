@@ -1,0 +1,89 @@
+.foot{
+    background-color: rgb(7, 37, 46);
+}
+footer{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.first-footer{
+    width: 45%;
+    font-size: 20px;
+    color: rgb(222, 222, 222);
+}
+.first-footer p{
+font-size: 15px;
+text-wrap: wrap;
+--fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+padding-bottom: 10px;
+
+
+}
+.first-footer p a{
+    text-decoration: none;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+.first-footer p a:hover{
+    color: purple;
+}
+.number{
+    margin-bottom: 2px;
+}
+.right .links{
+    display: flex;
+    font-size: 1rem;
+    color: rgb(141, 172, 201);
+    gap: 100px;
+    padding: 0px;
+}
+.links ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 25px;
+    gap: 30px;
+}
+.right h3{
+    font-size: 1.8em;
+    margin-top: 0px;
+    margin-bottom: 12px;
+    padding: 0px;
+    color: white;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a:hover{
+    color: orange;
+}
+.under{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    color: #DEDEDE;
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+    
+
+ 
+
+}
+.pic{
+    margin-left: -90px;
+}
+li i{
+    color: orange;
+    margin-left: 10px;
+}
+li i:hover{
+color: white;
+}

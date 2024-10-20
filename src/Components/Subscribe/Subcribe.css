@@ -1,0 +1,54 @@
+.subscribe-container{
+    width: 70%;
+    text-align: center;
+    margin: 120px auto 0px;
+    color: white;
+    margin-bottom: 50px;
+}
+.subscribe-container h2{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 3px;
+}
+.subscribe-container h1{
+    font-size: 38px;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+.subbutton{
+    background-color: rgb(255, 123, 27);
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    margin-top: 32px;
+    cursor: pointer;
+    font-family: Bentham, serif;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 24px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+.subbutton:hover{
+    background-color: white;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    margin-top: 32px;
+    cursor: pointer;
+    font-family: Bentham, serif;
+    font-size: 25px;
+    color: orange;
+    padding: 10px;
+    border-radius: 24px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+.maind{
+    background-color:rgb(7, 37, 46);
+}

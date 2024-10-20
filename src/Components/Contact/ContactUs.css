@@ -1,0 +1,212 @@
+ .main-div{
+   background-color: rgb(7, 37, 46);
+}
+.contact-div{
+  text-align: center;
+  color: white;
+    
+}
+.cont{
+    font-size: 49px;
+    font-family: Bentham, serif;
+    font-weight: 800;
+}.contact-div p{
+    font-size: 1.2em;
+    margin: 30px;
+
+    
+}
+
+/* form */
+.main{
+  background-color: rgb(7, 37, 46);
+}
+.name{
+  display: flex;
+  gap: 75px;
+  margin-bottom: 20px;
+
+}
+.contact{
+  display: flex;
+  gap: 75px;
+}
+input{
+  width: 100%;
+  color: rgb(222, 222, 222);
+  margin-top: 10px;
+  background-color: rgb(11, 59, 73);
+  padding: 10px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(222, 222, 222);
+  border-image: initial;
+}
+.input-text{
+margin-bottom:20px ;
+}
+label{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+.form{
+  height: 150%;
+  background-color: rgb(11, 59, 73);
+  width:50% ;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  align-items: center;
+  /* justify-content: center; */
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+.inner-form{
+  height: 70vh;
+ 
+  width:80% ;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(11, 59, 73);
+  align-items: center;
+
+}
+textarea{
+  height: 50%;
+  width: 100%;
+  margin-top: 10px;
+  background-color: rgb(11, 59, 73);
+  padding: 10px;
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(222, 222, 222);
+  border-image: initial;
+}
+.button{
+       margin-left: 43%;
+       margin-right: 43%;
+  
+      width: max-content;
+      height: max-content;
+      background-color: orange;
+      color:  white;
+      cursor: pointer;
+      margin-bottom: 20px;
+      font-family: Bentham, serif;
+      border-width: initial;
+      border-style: none;
+      border-color: initial;
+      border-image: initial;
+      border-radius: 5px;
+      padding: 10px 20px;
+  
+
+}
+.button:hover{
+  width: max-content;
+  height: max-content;
+  background-color: white;
+  color:  orange;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-family: Bentham, serif;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  border-radius: 5px;
+  padding: 10px 20px;
+
+  
+}
+.contact-details{
+   margin-bottom:40px ;
+}
+
+
+
+
+.subscribe-container{
+  width: 70%;
+  text-align: center;
+  margin: 120px auto 0px;
+  color: white;
+  margin-bottom: 50px;
+}
+.subscribe-container h2{
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 3px;
+}
+.subscribe-container h1{
+  font-size: 38px;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+.subbutton{
+  background-color: rgb(255, 123, 27);
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  margin-top: 32px;
+  cursor: pointer;
+  font-family: Bentham, serif;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 24px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+}
+.subbutton:hover{
+  background-color: white;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  margin-top: 32px;
+  cursor: pointer;
+  font-family: Bentham, serif;
+  font-size: 25px;
+  color: orange;
+  padding: 10px;
+  border-radius: 24px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+}
+.maind{
+  background-color:rgb(7, 37, 46);
+}
+
+
+@media(max-width:480px){
+  .form{
+    width: 70%;
+    height: 60%;
+  }
+  .inner-form{
+    height: 50vh;
+  }
+  
+  .n{
+    display: none;
+  }
+  .button{
+       margin-left: 20%;
+       margin-right: gg;
+  }
+} 
+
+@media(max-width:768px){
+  .inner-form{
+    height: 60vh;
+  }
+} 
+
+
